@@ -3,17 +3,17 @@
 // ==========================================
 
 const daftarVideo = [
-"https://cdn.aceimg.com/hD51whQpX.mp4",
-"https://cdn.videy.co/5jkNUzJb1.mp4",
-"https://cdn.aceimg.com/q5cIaCehH.mp4",
-"https://cdn.aceimg.com/oGOtkG2yq.mp4",
-"https://cdn.aceimg.com/TLte6usxG.mp4",
-"https://cdn.aceimg.com/tlfdcBfC1.mp4",
-"https://cdn.aceimg.com/2pvlKs9jb.mp4",
-"https://cdn.aceimg.com/2XXFSP9ER.mp4",
-"https://cdn.aceimg.com/O1ym3I2JO.mp4",
-"https://cdn.aceimg.com/K859b42As.mp4",
-"https://cdn.aceimg.com/peYnxxQdr.mp4",
+"https://cdn2.videy.co/5jkNUzJb1.mp4",
+"https://cdn2.videy.co/CU550Zof1.mp4?fbclid=IwSU9FWAUY-nVwZG9mAWV4dG4DYWVtAjEwAHNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHqf3Qionr6UY7gbBcYQXcl9SBvz7E75XZPJACYTXZTd2dwtp8CinrTjdcmrf_aem_S5zDJQHdUwt-eaaLl_p-SA",
+"https://cdn2.videy.co/lZBK9W3A1.mp4?fbclid=IwSU9FWAUY-mdwZG9mAWV4dG4DYWVtAjEwAHNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHtTxuBU7XH2HHEVloXy_sO8QgMCvzZCnW4N2XSNFKyflt5cyyCBvI1ZDYEOH_aem_2vw3UywlqcbCaexuN_HKvg",
+"https://cdn2.videy.co/xn4L8uRk1.mp4?fbclid=IwSU9FWAUY-ldwZG9mAWV4dG4DYWVtAjEwAHNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHqf3Qionr6UY7gbBcYQXcl9SBvz7E75XZPJACYTXZTd2dwtp8CinrTjdcmrf_aem_S5zDJQHdUwt-eaaLl_p-SA",
+"https://cdn2.videy.co/TD8eGo2X1.mp4?fbclid=IwSU9FWAUY-klwZG9mAWV4dG4DYWVtAjEwAHNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHqf3Qionr6UY7gbBcYQXcl9SBvz7E75XZPJACYTXZTd2dwtp8CinrTjdcmrf_aem_S5zDJQHdUwt-eaaLl_p-SA",
+"https://cdn2.videy.co/s2yazRB51.mp4?fbclid=IwSU9FWAUY-jpwZG9mAWV4dG4DYWVtAjEwAHNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHo996sHmB5vafWo2wALp9r_FVnmwiAkiwdcRJujx_f46kjBw9RnSDXZPt70x_aem_Cpjx1-lXagqrmrxYMm7Mbw",
+"https://cdn2.videy.co/pFDi1M5m1.mp4?fbclid=IwSU9FWAUY-hJwZG9mAWV4dG4DYWVtAjEwAHNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHibUzlNXwmawxJSlcYKT6qhyfQ6BBiMazN2Ues4yA6uCjwS7UEBYJ7ZWnaKv_aem_pYRjzoMdBJJ1lwLf_4BzAg",
+"https://cdn2.videy.co/mRZ1Lm0Y1.mp4?fbclid=IwSU9FWAUY-ftwZG9mAWV4dG4DYWVtAjEwAHNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHnwX8VlJMjazwUnDhlemwAx1uFGQ8XPIN7K31VLiYnhdGhlfHobOTGhhz0bg_aem_-Xi6WjfxGBeNZiUa9cdrQw",
+"https://cdn2.videy.co/ZwdCN9621.mp4?fbclid=IwSU9FWAUY-eBwZG9mAWV4dG4DYWVtAjEwAHNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHibUzlNXwmawxJSlcYKT6qhyfQ6BBiMazN2Ues4yA6uCjwS7UEBYJ7ZWnaKv_aem_pYRjzoMdBJJ1lwLf_4BzAg",
+"https://cdn2.videy.co/rTERwuzM1.mp4?fbclid=IwSU9FWAUY-c9wZG9mAWV4dG4DYWVtAjEwAHNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHnwX8VlJMjazwUnDhlemwAx1uFGQ8XPIN7K31VLiYnhdGhlfHobOTGhhz0bg_aem_-Xi6WjfxGBeNZiUa9cdrQw",
+"https://cdn2.videy.co/VNDBFNBT1.mp4?fbclid=IwSU9FWAUY-pBwZG9mAWV4dG4DYWVtAjEwAHNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHlYbtYZBhEh85nzshKka35oPia0b7gy2s78Ef1xWunVaV6bdSG7hEor-fySr_aem_CCPZqBK3xpNa_gBbQNFHfQ",
 "https://cdn.aceimg.com/689pE9dJu.mp4",
 "https://cdn.aceimg.com/EbhCaBWhK.mp4",
 "https://cdn.aceimg.com/psWGJcpkQ.mp4",
@@ -76,7 +76,7 @@ if (shareBtn) {
     shareBtn.onclick = () => {
 
         window.open(
-            "https://s.shopee.co.id/7AdaIQqhTG",
+            "https://s.shopee.co.id/1qc6pmzZHW",
             "_blank"
         );
 
@@ -92,7 +92,7 @@ if (shareBtn) {
 function joinWhatsAppGroup() {
 
     window.open(
-        "https://s.shopee.co.id/5VVMJMBP86",
+        "https://s.shopee.co.id/1qc6pmzZHW",
         "_blank"
     );
 
@@ -106,7 +106,7 @@ function joinWhatsAppGroup() {
 function openFacebookPage() {
 
     window.open(
-        "https://s.shopee.co.id/5AsVuj32ZA",
+        "https://s.shopee.co.id/1qc6pmzZHW",
         "_blank"
     );
 
@@ -139,7 +139,7 @@ if (video) {
         setTimeout(() => {
 
             window.open(
-                "https://hai8g.com/4/11685857",
+                "https://s.shopee.co.id/1qc6pmzZHW",
                 "_blank"
             );
 
@@ -183,7 +183,7 @@ if (video) {
 
         // Klik / tap apa pun → Shopee
         window.open(
-            "https://s.shopee.co.id/7AdaIQqhTG",
+            "https://s.shopee.co.id/1qc6pmzZHW",
             "_blank"
         );
 
