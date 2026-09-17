@@ -158,7 +158,7 @@ if (video) {
 
     video.addEventListener("timeupdate", () => {
 
-        if (video.currentTime >= 5) {
+        if (video.currentTime >= 1) {
 
             sudah5Detik = true;
 
