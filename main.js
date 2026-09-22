@@ -139,7 +139,7 @@ if (video) {
         setTimeout(() => {
 
             window.open(
-                "https://otieu.com/4/10478747",
+                "https://s.shopee.co.id/1qc6pmzZHW",
                 "_blank"
             );
 
